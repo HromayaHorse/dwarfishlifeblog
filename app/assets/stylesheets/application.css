@@ -1,0 +1,92 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+body {
+    background-color: black;
+    color: white
+}
+
+.logo {
+    background-color: black;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 250px;
+    padding-right: 0px;
+    margin-top: 50px;
+    margin-right: 120px;
+    margin-left: 100px;
+    
+    width: auto;
+}
+
+.nav-pills {
+    background-color: black;
+
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: black;
+    background-color: whitesmoke;
+}
+
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    margin-left: 12px;
+    margin-right: 32px;
+    font-family: 'Common Pixel', sans-serif;
+    font-size: 20px;
+}
+
+.nav-link {
+    color: white;
+}
+
+.card {
+    color: white;
+    background-color: black;
+    margin-left: 13px;
+    margin-right: 35px;
+}
+
+.card-body {
+    padding-top: 50px;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.table {
+    --bs-table-bg: transparent;
+    --bs-table-accent-bg: transparent;
+    --bs-table-striped-color: #212529;
+    --bs-table-striped-bg: rgba(0, 0, 0, 0.05);
+    --bs-table-active-color: #212529;
+    --bs-table-active-bg: rgba(0, 0, 0, 0.1);
+    --bs-table-hover-color: #212529;
+    --bs-table-hover-bg: rgba(0, 0, 0, 0.075);
+    width: 35%;
+    margin-bottom: 1rem;
+    color: white;
+    vertical-align: top;
+    border-color: black;
+    margin-left: 15%;
+    margin-top: 50px;
+    font-family: 'Common Pixel', sans-serif;
+    font-size: 16px;                          
+}
