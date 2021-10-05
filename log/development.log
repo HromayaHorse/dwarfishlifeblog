@@ -6258,3 +6258,65 @@ Processing by HomeController#index as HTML
 Completed 200 OK in 39ms (Views: 35.7ms | ActiveRecord: 0.0ms | Allocations: 4510)
 
 
+Started GET "/" for 172.19.0.1 at 2021-10-05 21:34:42 +0000
+Cannot render console from 172.19.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (1.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.6ms | Allocations: 236)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 2.5ms | Allocations: 587)
+  Rendered layout layouts/application.html.erb (Duration: 36.6ms | Allocations: 7939)
+Completed 200 OK in 62ms (Views: 45.9ms | ActiveRecord: 0.0ms | Allocations: 10552)
+
+
+Started GET "/" for 172.19.0.1 at 2021-10-05 21:34:43 +0000
+Cannot render console from 172.19.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 33)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 7.0ms | Allocations: 474)
+  Rendered layout layouts/application.html.erb (Duration: 33.7ms | Allocations: 4132)
+Completed 200 OK in 37ms (Views: 35.7ms | ActiveRecord: 0.0ms | Allocations: 4511)
+
+
+Started GET "/home/screenshots" for 172.19.0.1 at 2021-10-05 21:34:45 +0000
+Cannot render console from 172.19.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#screenshots as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/screenshots.html.erb within layouts/application
+  Rendered home/screenshots.html.erb within layouts/application (Duration: 0.7ms | Allocations: 113)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 4.5ms | Allocations: 474)
+  Rendered layout layouts/application.html.erb (Duration: 29.9ms | Allocations: 4212)
+Completed 200 OK in 40ms (Views: 36.8ms | ActiveRecord: 0.0ms | Allocations: 4720)
+
+
+Started GET "/home/screenshots" for 172.19.0.1 at 2021-10-05 21:34:50 +0000
+Cannot render console from 172.19.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#screenshots as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/screenshots.html.erb within layouts/application
+  Rendered home/screenshots.html.erb within layouts/application (Duration: 0.3ms | Allocations: 33)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 1.3ms | Allocations: 477)
+  Rendered layout layouts/application.html.erb (Duration: 21.5ms | Allocations: 4142)
+Completed 200 OK in 28ms (Views: 25.7ms | ActiveRecord: 0.0ms | Allocations: 4525)
+
+
+Started GET "/" for 172.19.0.1 at 2021-10-05 21:38:35 +0000
+Cannot render console from 172.19.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 236)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 2.4ms | Allocations: 587)
+  Rendered layout layouts/application.html.erb (Duration: 21.9ms | Allocations: 7939)
+Completed 200 OK in 36ms (Views: 26.0ms | ActiveRecord: 0.0ms | Allocations: 10552)
+
+
