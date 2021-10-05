@@ -6152,3 +6152,109 @@ Processing by HomeController#links as HTML
 Completed 200 OK in 19ms (Views: 17.4ms | ActiveRecord: 0.0ms | Allocations: 4052)
 
 
+Started GET "/" for 127.0.0.1 at 2021-10-04 22:45:40 +0300
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 19.1ms | Allocations: 240)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 1.9ms | Allocations: 589)
+  Rendered layout layouts/application.html.erb (Duration: 67.2ms | Allocations: 7495)
+Completed 200 OK in 94ms (Views: 76.2ms | ActiveRecord: 0.0ms | Allocations: 10052)
+
+
+Started GET "/" for 127.0.0.1 at 2021-10-04 22:45:41 +0300
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 37)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.9ms | Allocations: 476)
+  Rendered layout layouts/application.html.erb (Duration: 12.1ms | Allocations: 3673)
+Completed 200 OK in 14ms (Views: 12.9ms | ActiveRecord: 0.0ms | Allocations: 4057)
+
+
+Started GET "/home/screenshots" for 127.0.0.1 at 2021-10-04 22:45:42 +0300
+Processing by HomeController#screenshots as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/screenshots.html.erb within layouts/application
+  Rendered home/screenshots.html.erb within layouts/application (Duration: 1.6ms | Allocations: 118)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 2.0ms | Allocations: 476)
+  Rendered layout layouts/application.html.erb (Duration: 25.2ms | Allocations: 3754)
+Completed 200 OK in 32ms (Views: 29.2ms | ActiveRecord: 0.0ms | Allocations: 4264)
+
+
+Started GET "/home/links" for 127.0.0.1 at 2021-10-04 22:45:44 +0300
+Processing by HomeController#links as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/links.html.erb within layouts/application
+  Rendered home/links.html.erb within layouts/application (Duration: 2.0ms | Allocations: 132)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 2.5ms | Allocations: 479)
+  Rendered layout layouts/application.html.erb (Duration: 34.4ms | Allocations: 3781)
+Completed 200 OK in 40ms (Views: 37.0ms | ActiveRecord: 0.0ms | Allocations: 4293)
+
+
+Started GET "/" for 172.19.0.1 at 2021-10-05 20:31:34 +0000
+Cannot render console from 172.19.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (3.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 2.1ms | Allocations: 348)
+Started GET "/" for 172.19.0.1 at 2021-10-05 20:31:40 +0000
+Cannot render console from 172.19.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 33)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 7.3ms | Allocations: 578)
+  Rendered layout layouts/application.html.erb (Duration: 10599.1ms | Allocations: 56073)
+Completed 200 OK in 10625ms (Views: 10608.3ms | ActiveRecord: 0.0ms | Allocations: 59700)
+
+
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 1.2ms | Allocations: 474)
+  Rendered layout layouts/application.html.erb (Duration: 5409.3ms | Allocations: 21429)
+Completed 200 OK in 5411ms (Views: 5410.5ms | ActiveRecord: 0.0ms | Allocations: 21755)
+
+
+Started GET "/home/screenshots" for 172.19.0.1 at 2021-10-05 20:32:20 +0000
+Cannot render console from 172.19.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#screenshots as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/screenshots.html.erb within layouts/application
+  Rendered home/screenshots.html.erb within layouts/application (Duration: 1.2ms | Allocations: 113)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 6.8ms | Allocations: 474)
+  Rendered layout layouts/application.html.erb (Duration: 29.2ms | Allocations: 4220)
+Completed 200 OK in 37ms (Views: 32.8ms | ActiveRecord: 0.0ms | Allocations: 5126)
+
+
+Started GET "/home/links" for 172.19.0.1 at 2021-10-05 20:32:21 +0000
+Cannot render console from 172.19.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#links as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/links.html.erb within layouts/application
+  Rendered home/links.html.erb within layouts/application (Duration: 1.6ms | Allocations: 128)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 4.9ms | Allocations: 474)
+  Rendered layout layouts/application.html.erb (Duration: 30.0ms | Allocations: 4227)
+Completed 200 OK in 36ms (Views: 33.8ms | ActiveRecord: 0.0ms | Allocations: 4736)
+
+
+Started GET "/" for 172.19.0.1 at 2021-10-05 20:32:22 +0000
+Cannot render console from 172.19.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 33)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 1.3ms | Allocations: 474)
+  Rendered layout layouts/application.html.erb (Duration: 32.7ms | Allocations: 4129)
+Completed 200 OK in 39ms (Views: 35.7ms | ActiveRecord: 0.0ms | Allocations: 4510)
+
+
