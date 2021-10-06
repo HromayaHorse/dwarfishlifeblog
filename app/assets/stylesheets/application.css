@@ -21,15 +21,10 @@ body {
 
 .logo {
     background-color: black;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    padding-left: 250px;
-    padding-right: 0px;
-    margin-top: 50px;
-    margin-right: 120px;
-    margin-left: 100px;
-    
     width: auto;
+    margin-top: 50px;
+    margin-left: 28%;
+    margin-bottom: 20px;
 }
 
 .nav-pills {
