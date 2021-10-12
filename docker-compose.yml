@@ -14,7 +14,7 @@ volumes:
     build:
       context: .
       dockerfile: ./nginx.Dockerfile
-    depends_on:
-      - app
+     depends_on:
+      - dwarfishlifeblog
     ports:
-      - 80:80
+      - 80:3000
