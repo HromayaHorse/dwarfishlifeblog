@@ -1,20 +1,19 @@
 version: '3.8'
-services:
 
-  web:
-    build: .
-    command: bash -c "rm -f tmp/pids/server.pid && bundle exec rails s -p 3000 -b '0.0.0.0'"
-    volumes:
-      - .:/Rails-Docker
-    ports:
-      - "80:3000"
-volumes:
-  postgres:
-  nginx:
+services:
+  app: 
     build:
       context: .
-      dockerfile: ./nginx.Dockerfile
-     depends_on:
-      - dwarfishlifeblog
+      dockerfile: ./docker/app/DockerFile
+  
+  web:
+    build:
+      context: .
+      dockerfile: ./docker/web/DockerFile
+    depends_on: 
+      - app
+    # command: bash -c "rm -f tmp/pids/server.pid && bundle exec rails s -p 3000 -b '0.0.0.0'"
+    # volumes:
+      # - .:/Rails-Docker
     ports:
-      - 80:3000
+      - "80:3000"
