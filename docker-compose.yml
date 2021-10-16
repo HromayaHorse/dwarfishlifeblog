@@ -1,19 +1,19 @@
-version: '3.8'
-
+version: "3.8"
 services:
-  app: 
+  app:
     build:
       context: .
-      dockerfile: ./docker/app/DockerFile
-  
-  web:
+      dockerfile: ./app/DockerFile
+    command: bash -c "bundle exec puma -C config/puma.rb"
+    volumes:
+      - .:/app
+    depends_on:
+      - postgres
+  nginx:
     build:
       context: .
-      dockerfile: ./docker/web/DockerFile
-    depends_on: 
+      dockerfile: ./web/nginx.Dockerfile
+    depends_on:
       - app
- #   command: bash -c "rm -f tmp/pids/server.pid && bundle exec rails s -p 3000 -b '0.0.0.0'"
-#      volumes:
-#       - .:/Rails-Docker
     ports:
-      - "80:3000"
+      - 80:80
