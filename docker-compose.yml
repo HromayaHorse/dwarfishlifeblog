@@ -7,12 +7,12 @@ services:
     command: bash -c "bundle exec puma -C config/puma.rb"
     volumes:
       - .:/app
-    depends_on:
-      - postgres
+#    depends_on:
+ #     - postgres
   nginx:
     build:
       context: .
-      dockerfile: ./docker/web/nginx.Dockerfile
+      dockerfile: ./docker/web/nginx.DockerFile
     depends_on:
       - app
     ports:

@@ -1,7 +1,7 @@
 FROM ruby:2.7.0
 RUN apt-get update -qq \
 && apt-get install -y nodejs sqlite3
-RUN npm install -g yarn@1
+#RUN npm install -g yarn@1
 
 WORKDIR /app
 COPY Gemfile /app/Gemfile
@@ -11,5 +11,5 @@ COPY . /app
 
 EXPOSE 3000
 
-RUN SECRET_KEY_BASE=1 RAILS_ENV=production bundle exec rake assets:precompile
+RUN bundle
 CMD ["bundle", "exec", "puma", "-C", "config/puma.rb"]
