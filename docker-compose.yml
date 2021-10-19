@@ -9,11 +9,11 @@ services:
       - .:/app
 #    depends_on:
  #     - nginx
-  nginx:
-    build:
-      context: .
-      dockerfile: ./docker/web/nginx.DockerFile
-    depends_on:
-      - app
-    ports:
-      - 80:80
+  # nginx:
+  #   build:
+  #     context: .
+  #     dockerfile: ./docker/web/nginx.DockerFile
+  #   depends_on:
+  #     - app
+  #   ports:
+  #     - 80:80
