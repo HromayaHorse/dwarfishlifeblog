@@ -12,7 +12,7 @@ COPY public public/
 
 COPY docker/web/nginx.conf /tmp/docker.nginx
 
-RUN envsubst '/var/www/dwarfishlifeblog' < /tmp/docker.nginx > /etc/nginx/conf.d/default.conf
+RUN envsubst '$RAILS_ROOT' < /tmp/docker.nginx > /etc/nginx/conf.d/default.conf
 
 EXPOSE 80
 
