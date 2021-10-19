@@ -6320,3 +6320,107 @@ Processing by HomeController#index as HTML
 Completed 200 OK in 36ms (Views: 26.0ms | ActiveRecord: 0.0ms | Allocations: 10552)
 
 
+Started GET "/" for 127.0.0.1 at 2021-10-20 00:44:40 +0300
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 204)
+  Rendered layout layouts/application.html.erb (Duration: 42.8ms | Allocations: 16955)
+Completed 500 Internal Server Error in 54ms (ActiveRecord: 0.0ms | Allocations: 19704)
+
+
+  
+ActionView::Template::Error (Permission denied @ apply2files - /home/pigeon/Job_projects/dwarfishlifeblog/dwarfishlifeblog/tmp/cache/assets/sprockets/v4.0.0/IV/IV8nSqcKMEZ2JUF05vmeT21DtPnclA1UFpdm-TZv2N8.cache):
+    13:     <%= csrf_meta_tags %>
+    14:     <%= csp_meta_tag %>
+    15: 
+    16:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    17:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    18: 
+    19:     <link href="http://fonts.cdnfonts.com/css/common-pixel" rel="stylesheet">
+  
+app/views/layouts/application.html.erb:16
+Started GET "/" for 127.0.0.1 at 2021-10-20 00:46:16 +0300
+  [1m[35m (4.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 2.7ms | Allocations: 316)
+Started GET "/" for 127.0.0.1 at 2021-10-20 00:46:18 +0300
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+[Webpacker] Compiling...
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/pigeon/Job_projects/dwarfishlifeblog/dwarfishlifeblog/public/packs
+[Webpacker] Hash: e2f281de3ea1fdc4fa5a
+Version: webpack 4.46.0
+Time: 10658ms
+Built at: 10/20/2021 12:46:46 AM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-be412d64645010827f4e.js    125 KiB  application  [emitted] [immutable]  application
+js/application-be412d64645010827f4e.js.map    139 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-be412d64645010827f4e.js js/application-be412d64645010827f4e.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 492 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+[Webpacker] Compiled all packs in /home/pigeon/Job_projects/dwarfishlifeblog/dwarfishlifeblog/public/packs
+[Webpacker] Hash: e2f281de3ea1fdc4fa5a
+Version: webpack 4.46.0
+Time: 10514ms
+Built at: 10/20/2021 12:46:46 AM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-be412d64645010827f4e.js    125 KiB  application  [emitted] [immutable]  application
+js/application-be412d64645010827f4e.js.map    139 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-be412d64645010827f4e.js js/application-be412d64645010827f4e.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 492 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+  Rendered home/_header.html.erb (Duration: 1.0ms | Allocations: 446)
+  Rendered layout layouts/application.html.erb (Duration: 27767.3ms | Allocations: 49617)
+Completed 200 OK in 27769ms (Views: 27768.3ms | ActiveRecord: 0.0ms | Allocations: 49955)
+
+
+  Rendered home/_header.html.erb (Duration: 5.4ms | Allocations: 4729)
+  Rendered layout layouts/application.html.erb (Duration: 29703.5ms | Allocations: 64413)
+Completed 200 OK in 29757ms (Views: 29716.5ms | ActiveRecord: 0.0ms | Allocations: 68028)
+
+
+Started GET "/" for 127.0.0.1 at 2021-10-20 00:47:21 +0300
+  [1m[35m (2.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 316)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/pigeon/Job_projects/dwarfishlifeblog/dwarfishlifeblog/public/packs
+[Webpacker] Hash: e2f281de3ea1fdc4fa5a
+Version: webpack 4.46.0
+Time: 1234ms
+Built at: 10/20/2021 12:47:33 AM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-be412d64645010827f4e.js    125 KiB  application  [emitted] [immutable]  application
+js/application-be412d64645010827f4e.js.map    139 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-be412d64645010827f4e.js js/application-be412d64645010827f4e.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 492 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+  Rendered home/_header.html.erb (Duration: 1.2ms | Allocations: 544)
+  Rendered layout layouts/application.html.erb (Duration: 11494.7ms | Allocations: 31671)
+Completed 200 OK in 11511ms (Views: 11500.2ms | ActiveRecord: 0.0ms | Allocations: 35410)
+
+
