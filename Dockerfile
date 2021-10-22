@@ -2,7 +2,7 @@ FROM ruby:2.7.0
 
 RUN apt-get update -qq \
 && apt-get install -y nodejs sqlite3
-RUN apt-get update && apt-get install -y yarn
+RUN apt-get update && npm install --global yarn
 
 ADD . /Rails-Docker
 WORKDIR /Rails-Docker
