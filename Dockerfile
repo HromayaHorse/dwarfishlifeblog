@@ -9,6 +9,8 @@ RUN npm install --global yarn
 
 ADD . /Rails-Docker
 WORKDIR /Rails-Docker
+COPY Gemfile /Rails-Docker/Gemfile
+COPY Gemfile.lock /Rails-Docker/Gemfile.lock
 
 RUN bundle install
 RUN bundle exec rake assets:precompile

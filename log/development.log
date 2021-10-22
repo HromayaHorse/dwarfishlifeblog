@@ -6452,3 +6452,57 @@ Entrypoint application = js/application-be412d64645010827f4e.js js/application-b
 Completed 200 OK in 22633ms (Views: 22600.2ms | ActiveRecord: 0.0ms | Allocations: 34782)
 
 
+Started GET "/" for 127.0.0.1 at 2021-10-22 21:36:40 +0300
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.5ms | Allocations: 204)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 3.3ms | Allocations: 558)
+  Rendered layout layouts/application.html.erb (Duration: 59.2ms | Allocations: 7407)
+Completed 200 OK in 73ms (Views: 65.7ms | ActiveRecord: 0.0ms | Allocations: 9962)
+
+
+Started GET "/" for 172.19.0.1 at 2021-10-22 18:55:01 +0000
+Cannot render console from 172.19.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (1.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.3ms | Allocations: 316)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 2.7ms | Allocations: 546)
+  Rendered layout layouts/application.html.erb (Duration: 11506.8ms | Allocations: 30357)
+Completed 200 OK in 11529ms (Views: 11515.1ms | ActiveRecord: 0.0ms | Allocations: 33980)
+
+
+Started GET "/" for 172.19.0.1 at 2021-10-22 19:49:21 +0000
+Cannot render console from 172.19.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (7.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 3.8ms | Allocations: 316)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Rails-Docker/public/packs
+[Webpacker] Hash: e2f281de3ea1fdc4fa5a
+Version: webpack 4.46.0
+Time: 22027ms
+Built at: 10/22/2021 7:50:38 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-be412d64645010827f4e.js    125 KiB  application  [emitted] [immutable]  application
+js/application-be412d64645010827f4e.js.map    139 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-be412d64645010827f4e.js js/application-be412d64645010827f4e.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 492 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+  Rendered home/_header.html.erb (Duration: 14.2ms | Allocations: 544)
+  Rendered layout layouts/application.html.erb (Duration: 77993.4ms | Allocations: 27512)
+Completed 200 OK in 78080ms (Views: 78028.7ms | ActiveRecord: 0.0ms | Allocations: 31246)
+
+
