@@ -6424,3 +6424,31 @@ Entrypoint application = js/application-be412d64645010827f4e.js js/application-b
 Completed 200 OK in 11511ms (Views: 11500.2ms | ActiveRecord: 0.0ms | Allocations: 35410)
 
 
+Started GET "/" for 127.0.0.1 at 2021-10-20 18:35:17 +0300
+  [1m[35m (3.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 2.4ms | Allocations: 316)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/pigeon/Job_projects/dwarfishlifeblog/dwarfishlifeblog/public/packs
+[Webpacker] Hash: e2f281de3ea1fdc4fa5a
+Version: webpack 4.46.0
+Time: 2464ms
+Built at: 10/20/2021 6:35:40 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-be412d64645010827f4e.js    125 KiB  application  [emitted] [immutable]  application
+js/application-be412d64645010827f4e.js.map    139 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-be412d64645010827f4e.js js/application-be412d64645010827f4e.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 492 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+  Rendered home/_header.html.erb (Duration: 14.7ms | Allocations: 544)
+  Rendered layout layouts/application.html.erb (Duration: 22573.0ms | Allocations: 31154)
+Completed 200 OK in 22633ms (Views: 22600.2ms | ActiveRecord: 0.0ms | Allocations: 34782)
+
+

@@ -4,5 +4,6 @@ RUN apt-get update -qq \
 ADD . /Rails-Docker
 WORKDIR /Rails-Docker
 RUN bundle install
+RUN bundle exec rake assets:precompile
 EXPOSE 3000
-CMD ["bash"]
+CMD ["bundle", "exec", "puma", "-C", "config/puma.rb"]
