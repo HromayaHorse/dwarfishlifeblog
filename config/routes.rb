@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  get 'home/news'
   get 'home/screenshots'
   get 'home/links'
   # get 'home/index'

@@ -1,8 +1,4 @@
 class HomeController < ApplicationController
-  def index
-  end
-  def links
-  end
-  def screenshots
+  def news
   end
 end
